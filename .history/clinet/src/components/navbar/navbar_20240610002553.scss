@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+
+  .left {
+    flex: 3;
+    gap: 50px;
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      img {
+        width: 28px;
+      }
+    }
+  }
+  .right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+
+    .register {
+      background-color: #fece51;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.singlePage {
+  display: flex;
+  height: 100%;
+
+  .details {
+    flex: 3;
+
+    .wrapper {
+      padding-right: 50px;
+
+      .info {
+        .top {
+          .post {
+            h1 {
+            }
+            .address {
+            }
+            .price {
+            }
+          }
+        }
+      }
+    }
+  }
+  .features {
+    flex: 2;
+    background-color: #fcfcfc;
+    .wrapper {
+      padding: 0px 20px;
+    }
+  }
+}
